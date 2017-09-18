@@ -32,19 +32,17 @@
             android:text="MI BOTON"
             tools:layout_editor_absoluteX="137dp"
             tools:layout_editor_absoluteY="205dp"
+            android:layout_marginTop="26dp"
             android:layout_below="@+id/textView"
-            android:layout_alignLeft="@+id/textView"
-            android:layout_alignStart="@+id/textView"
-            android:layout_marginTop="55dp" />
+            android:layout_alignLeft="@+id/btn2"
+            android:layout_alignStart="@+id/btn2" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="PRIMER TEXTO"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="74dp" />
+            android:layout_centerHorizontal="true" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -54,6 +52,16 @@
             app:srcCompat="@mipmap/ic_launcher"
             android:layout_above="@+id/btn2"
             android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT SCREEN"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/btn1"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
 
     </RelativeLayout>
 
